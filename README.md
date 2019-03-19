@@ -10,7 +10,7 @@
 ![Angular](https://img.shields.io/badge/Angular-%3E%3D5.0-red.svg)
 ![npm](https://img.shields.io/npm/dm/angular5-csv.svg)
 
-> Helper library for create CSV file in Angular5
+> A helper library for creating CSV files in Angular5.
 > 
 
 ## Installation 
