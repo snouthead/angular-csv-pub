@@ -11,15 +11,15 @@
 ![npm](https://img.shields.io/npm/dm/angular5-csv.svg)
 
 > A helper library for creating CSV files in Angular5.
-> 
+>
 
 ## Installation 
 
 ```javascript
-npm install --save angular5-csv
+npm install --save angular5-csv-pub
 ```
 
-## Example 
+## Example
 ```javascript
 
 import { Angular5Csv } from 'angular5-csv/dist/Angular5-csv';
@@ -70,11 +70,11 @@ new Angular5Csv(data, 'My Report');
 ## Options Example
 
 ```javascript
-  var options = { 
+  var options = {
     fieldSeparator: ',',
     quoteStrings: '"',
     decimalseparator: '.',
-    showLabels: true, 
+    showLabels: true,
     showTitle: true,
     title: 'Your title',
     useBom: true,

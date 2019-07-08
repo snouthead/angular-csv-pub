@@ -10,8 +10,7 @@
     "dev": "tsc --watch",
     "test-watch": "karma start",
     "test": "karma start --single-run",
-    "run": "ts-node ./Angular5Csv.ts",
-    "prepublishOnly": "tsc -p ./ --outDir dist/"
+    "run": "ts-node ./Angular5Csv.ts"
   },
   "keywords": [
     "angular5",
@@ -41,7 +40,7 @@
   },
   "main": "./dist/Angular2-csv.js",
   "typings": "/dist/Angular2-csv.d.ts",
-  "homepage": "https://github.com/alhazmy13/angular5-csv#readme",
+  "homepage": "https://github.com/snouthead/angular-csv-pub#readme",
   "devDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/core": "^5.0.0",
