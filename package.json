@@ -1,6 +1,6 @@
 {
   "name": "angular5-csv-pub",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "Helper library for create CSV file in Angular 5 // with public Csv Property",
   "repository": {
     "type": "git",
@@ -10,7 +10,8 @@
     "dev": "tsc --watch",
     "test-watch": "karma start",
     "test": "karma start --single-run",
-    "run": "ts-node ./Angular5Csv.ts"
+    "run": "ts-node ./Angular5Csv.ts",
+    "prepublishOnly": "tsc -p ./ --outDir dist/"
   },
   "keywords": [
     "angular5",
