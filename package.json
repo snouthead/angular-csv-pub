@@ -1,10 +1,10 @@
 {
-  "name": "angular5-csv",
-  "version": "0.2.10",
-  "description": "Helper library for create CSV file in Angular 5",
+  "name": "angular5-csv-pub",
+  "version": "0.2.11",
+  "description": "Helper library for create CSV file in Angular 5 // with public Csv Property",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alhazmy13/angular5-csv.git"
+    "url": "https://github.com/snouthead/angular-csv-pub"
   },
   "scripts": {
     "dev": "tsc --watch",
@@ -29,6 +29,10 @@
     {
       "name": "Davor Peic - Krushka Design",
       "email": "info@krushka.mx"
+    },
+    {
+      "name": "Ben Sobirey - snouthead solutions",
+      "email": "ben@snouthead.com"
     }
   ],
   "license": "MIT",

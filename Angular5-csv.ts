@@ -52,7 +52,7 @@ export class Angular5Csv {
     public data: any[];
 
     private _options: Options;
-    private csv = "";
+    public csv = "";
 
     constructor(DataJSON: any, filename: string, options?: any) {
         let config = options || {};
@@ -169,7 +169,7 @@ export class Angular5Csv {
             }
             return data;
         }
-        
+
         if (typeof data === 'boolean') {
             return data ? 'TRUE' : 'FALSE';
         }
